@@ -1,0 +1,11 @@
+
+
+
+//============================================
+How to become machine learining expert!
+https://www.kaggle.com/discussions/general/262128
+
+//==================================================================
+recall simple blogs for linear regression, multiple linear regression and logistic regression 
+
+https://www.superdatascience.com/blogs/the-ultimate-guide-to-regression-classification
