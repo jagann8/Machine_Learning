@@ -1,0 +1,63 @@
+
+
+
+//============================================
+How to become machine learining expert!
+https://www.kaggle.com/discussions/general/262128
+
+//==================================================================
+recall simple blogs for linear regression, multiple linear regression and logistic regression 
+
+https://www.superdatascience.com/blogs/the-ultimate-guide-to-regression-classification
+
+//==================================================================
+
+Datascience project life cycle
+
+1. EDA (Exploratory Data Analysis)
+
+- using EDA, we can analysze the data by using numpy, pandas, matplotlib etc.
+- we can also dealing with missing values
+- by using EDA, we can mainly summarize the data
+
+2. Feture Engineering
+
+- extract the features from raw data with some domain knowledge
+
+3. Feture Selection
+
+- Here we selcting features from the datasets. it will high impact on the model estimators
+
+4. Model Creation
+
+- in this part, we creating machine learning model by using machine learning algorithms. eg. regressor or classifier
+
+5.Model Deployment
+
+- here in this part, we deploy the model into the web...
+
+
+Flow Chart
+
+EDA  -->  Feature Engineering  -->  Feature Selection  -->  Model Creation  -->  Model Deployment
+
+// ====================================================================================
+
+
+Data preprocessing = EDA + Feature Engineering + Feature Selection
+
+Model training = Model Creation
+
+
+// ====================================================================================
+
+fit() - imagine you have to standardize the your data. it calculates mean 0 and standard deviation 1. 
+      - The model is ready to transform data, but the actual data remains unchanged.
+
+transform() - After fitting the standard scaler, the transform method would subtract the mean and divide by the standard                deviation for each feature in your training data and any new data you provide.
+            - You get a new, transformed dataset with the intended characteristics.
+
+fit_transform() - Using fit_transform with a standard scaler would calculate the mean and standard deviation of each                        feature in your training data and directly transform the data by subtracting the mean and dividing by                     the standard deviation.
+                - You get a transformed dataset in one step, without needing separate calls to fit and transform.
+
+
